@@ -1,0 +1,8 @@
+<h2>All Students</h2>
+<ul class="quizJoins">
+    <li *ngFor="let quizJoin of quizTable">
+        <a routerLink="/detail/{{quizJoin.quizName}}">
+            <span class="badge">{{quizJoin.firstname}}</span> {{quizJoin.lastname}}
+        </a>
+    </li>
+</ul>
