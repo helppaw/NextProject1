@@ -10,6 +10,7 @@ import { AppRoutingModule } from 'src/app-routing.module';
 import { MessagesComponent } from './messages/messages.component';
 import { LoginComponent } from './login/login.component';
 import { QuizJoinsComponent } from './quiz-joins/quizJoins.component';
+import { DunnoComponent } from './dunno/dunno.component';
 
 
 
@@ -21,7 +22,8 @@ import { QuizJoinsComponent } from './quiz-joins/quizJoins.component';
     DashboardComponent,
     StudentDetailComponent,
     MessagesComponent,
-    LoginComponent
+    LoginComponent,
+    DunnoComponent
   ],
   imports: [
     BrowserModule,
